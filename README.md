@@ -3,10 +3,9 @@
 # Ad-Nuke 🚫⚡
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
-[![Open source](https://img.shields.io/badge/Status-Ad%20Free-brightgreen.svg)]()
-[![Open Source](https://img.shields.io/badge/Open%20Source-Loved-brightgreen.svg)]()
+[![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-brightgreen.svg)]()
+[![Contact](https://img.shields.io/badge/Contact developer via-Telegram%25-orange)]()
 </div>
-
 
 ## Pre-requisite:
 - Rooted Android with Magisk!!!
@@ -20,12 +19,15 @@
 - Optionally blocks all the porn sites by specifying `-p` flag  
 
 ⚠️ **Note:**
-An internet connection is required to download hosts file so please make sure you have a stable connection
+An internet connection is required to download hosts file so please make sure you have a stable connection before running this script.
 
 ## Installation:
-- In termux:
+- In Termux:
 ```sh
 curl -O https://raw.githubusercontent.com/YOUR/ad-nuke/main/ad-nuke.sh
+```
+- Then:
+```sh
 sh adnuke.sh -h
 ```
 ## Enjoy ad free browsing ⭐⭐
@@ -47,4 +49,7 @@ sh adnuke.sh -p
 ```sh
 sh adnuke.sh -r
 ```
-
+## Credits:
+## Host source providers:
+- @StevenBlack
+- @Adaway
