@@ -27,6 +27,8 @@ An internet connection is required to download hosts file so please make sure yo
 curl -O https://raw.githubusercontent.com/YOUR/ad-nuke/main/ad-nuke.sh
 sh adnuke.sh -h
 ```
+## Enjoy ad free browsing ⭐⭐
+
 ## Usage:
 - To see help file:
 ```sh
@@ -44,4 +46,4 @@ sh adnuke.sh -p
 ```sh
 sh adnuke.sh -r
 ```
-## Enjoy ad free browsing ⭐⭐
+
