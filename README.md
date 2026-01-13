@@ -44,3 +44,4 @@ sh adnuke.sh -p
 ```sh
 sh adnuke.sh -r
 ```
+## Enjoy ad free browsing ⭐⭐
