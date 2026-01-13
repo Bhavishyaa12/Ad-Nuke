@@ -1,8 +1,10 @@
-# Ad-Nuke 🚫⚡ 
+<div align="center">
+
+# Ad-Nuke 🚫⚡
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]
 [![Ad-Free](https://img.shields.io/badge/Status-Ad%20Free-brightgreen.svg)]
-
+</div>
 <div align="center">
 <img src="banner-nuke.png" alt="Ad-Nuke Banner" width="100%"/>
 </div>
