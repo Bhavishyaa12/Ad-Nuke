@@ -16,9 +16,9 @@
 ## Features:
 - Systemlessly install ad blocking hosts files in `/etc/hosts` with one click 🚀🚀
 - Easy setup run once and forget
-- Also blocks all the porn sites by specifying `-p` flag  
+- Optionally blocks all the porn sites by specifying `-p` flag  
 
-⚠️ **Note**
+⚠️ **Note:**
 An internet connection is required to download hosts file so please make sure you have a stable connection
 
 ## Installation:
