@@ -6,9 +6,7 @@
 [![Open source](https://img.shields.io/badge/Status-Ad%20Free-brightgreen.svg)]()
 [![Open Source](https://img.shields.io/badge/Open%20Source-Loved-brightgreen.svg)]()
 </div>
-<div align="center">
-<img src="banner-nuke.png" alt="Ad-Nuke Banner" width="100%"/>
-</div>
+
 
 ## Pre-requisite:
 - Rooted Android with Magisk!!!
