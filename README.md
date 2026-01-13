@@ -4,7 +4,7 @@
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-brightgreen.svg)]()
-[![Contact](https://img.shields.io/badge/Contact developer via-Telegram%25-orange)]()
+[![Contact](https://img.shields.io/badge/Contact-Telegram%25-orange)]()
 </div>
 
 ## Pre-requisite:
