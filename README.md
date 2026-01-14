@@ -15,11 +15,15 @@
 </div>
 
 ## Pre-requisite:
-- Rooted Android with Magisk!!!
+- Rooted Android with [Magisk](https://github.com/topjohnwu/Magisk "Official Magisk Repository")!!!
 - A working 🧠
 - Termux app installed
 - Internet connection
+- Magisk systemless hosts module required
 
+⚠️ **Note:**
+Please install magisk systemless hosts module in magisk settings to make this script work.Go to Magisk Settings --> Click on Systemless hosts (REBOOT).
+   
 ## Features:
 - Systemlessly install ad blocking hosts files in `/etc/hosts` with one click 🚀🚀
 - Easy setup run once and forget
@@ -58,5 +62,5 @@ sh adnuke.sh -r
 ```
 ## Credits:
 ## Host source providers:
-- @StevenBlack
-- @Adaway
+- [@StevenBlack](https://github.com/StevenBlack)
+- [@Adaway](https://github.com/AdAway/AdAway)
