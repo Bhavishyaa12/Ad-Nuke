@@ -10,8 +10,10 @@
 <div align="center">
   
 [![Fast and quick](https://img.shields.io/badge/Easy_and-Fast-blue)]()
+[![Github repo](https://img.shields.io/badge/github-repo-blue?logo=github)]()
 
 </div>
+
 ## Pre-requisite:
 - Rooted Android with Magisk!!!
 - A working 🧠
