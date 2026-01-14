@@ -5,7 +5,7 @@
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made_with%20-Love❤️-cyan.svg)]()
 [![Telegram](https://img.shields.io/badge/Contact_Developer-Telegram-blue)](https://t.me/Bhavishyaa_12)
-[![Open source](https://img.shields.io/badge/Open-Source-green)]()
+[![Open source](https://img.shields.io/badge/Open-Source-green)](https://github.com/Bhavishyaa12/Ad-Nuke/blob/main/adnuke.sh)
 [![Github repo](https://img.shields.io/badge/github-repo-blue?logo=github)]()
 
 </div>
@@ -58,7 +58,7 @@ sh adnuke.sh -p
 sh adnuke.sh -r
 ```
 ## Source code:
-- You can find the source code [here]()
+- You can find the source code [here](https://github.com/Bhavishyaa12/Ad-Nuke/blob/main/adnuke.sh)
 
 ## Credits:
 ## Host source providers:
