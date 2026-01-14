@@ -32,7 +32,7 @@ An internet connection is required to download hosts file so please make sure yo
 ## Installation:
 - In Termux:
 ```sh
-curl -O https://raw.githubusercontent.com/YOUR/ad-nuke/main/ad-nuke.sh
+curl -O https://raw.githubusercontent.com/Bhavishyaa12/Ad-nuke/main/adnuke.sh
 ```
 - Then:
 ```sh
