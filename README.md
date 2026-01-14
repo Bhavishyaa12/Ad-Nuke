@@ -65,4 +65,3 @@ sh adnuke.sh -r
 - [@StevenBlack](https://github.com/StevenBlack)
 - [@Adaway](https://github.com/AdAway/AdAway)
 
-[![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavishyaa12&repo=Ad-nuke&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
