@@ -3,7 +3,7 @@
 # Ad-Nuke 🚀
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
-[![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-cyan.svg)]()
+[![Made with love❤️](https://img.shields.io/badge/Made_with%20Love❤️-cyan.svg)]()
 [![Telegram](https://img.shields.io/badge/Contact_Developer-Telegram-blue)](https://t.me/Bhavishyaa_12)
 [![Open source](https://img.shields.io/badge/Open-Source-green)]()
 [![Github repo](https://img.shields.io/badge/github-repo-blue?logo=github)]()
