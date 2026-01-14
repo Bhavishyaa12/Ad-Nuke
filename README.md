@@ -36,7 +36,7 @@ curl -O https://raw.githubusercontent.com/Bhavishyaa12/Ad-nuke/main/adnuke.sh
 ```
 - Then:
 ```sh
-sh adnuke.sh -h
+sh adnuke.sh [Options]
 ```
 ## Enjoy ad free browsing!!!
 
