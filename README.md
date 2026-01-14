@@ -27,7 +27,7 @@ Go to Magisk Settings --> Click on Systemless hosts (REBOOT).
 - Optionally blocks all the porn sites by specifying `-p` flag  
 
 ⚠️ **Note:**
-An internet connection is required to download hosts file so please make sure you have a stable connection before running this script.
+Please don't run this script with adaway or some other adblocker (even module) enabled
 
 ## Installation:
 - In Termux:
