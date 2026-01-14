@@ -5,7 +5,7 @@
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-cyan.svg)]()
 [![Telegram](https://img.shields.io/badge/Contact_Developer-Telegram-blue)](https://t.me/Bhavishyaa_12)
-[![Fast and quick](https://img.shields.io/badge/Open_and-Source-pink)]()
+[![Fast and quick](https://img.shields.io/badge/Open_and-Source-green)]()
 [![Github repo](https://img.shields.io/badge/github-repo-blue?logo=github)]()
 
 </div>
