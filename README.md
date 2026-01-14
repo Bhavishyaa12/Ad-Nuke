@@ -12,7 +12,7 @@
 
 ## Pre-requisite:
 - Rooted Android with [Magisk](https://github.com/topjohnwu/Magisk "Official Magisk Repository")!!!
-- A working brain
+- A working brain (obviously)
 - Termux app installed
 - Internet connection
 - Magisk systemless hosts module required
