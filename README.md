@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ad-Nuke 
+# Ad-Nuke 🚀
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-cyan.svg)]()
@@ -22,7 +22,7 @@ Please install magisk systemless hosts module in magisk settings to make this sc
 Go to Magisk Settings --> Click on Systemless hosts (REBOOT).
    
 ## Features:
-- Systemlessly install ad blocking hosts files in `/etc/hosts` with one click 🚀🚀
+- Systemlessly install ad blocking hosts files in `/etc/hosts` with one click 
 - Easy setup run once and forget
 - Optionally blocks all the porn sites by specifying `-p` flag  
 
