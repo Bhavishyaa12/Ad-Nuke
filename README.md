@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ad-Nuke 🚫⚡
+# Ad-Nuke 
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-cyan.svg)]()
@@ -12,7 +12,7 @@
 
 ## Pre-requisite:
 - Rooted Android with [Magisk](https://github.com/topjohnwu/Magisk "Official Magisk Repository")!!!
-- A working 🧠
+- A working brain
 - Termux app installed
 - Internet connection
 - Magisk systemless hosts module required
@@ -38,7 +38,7 @@ curl -O https://raw.githubusercontent.com/Bhavishyaa12/Ad-nuke/main/adnuke.sh
 ```sh
 sh adnuke.sh -h
 ```
-## Enjoy ad free browsing ⭐⭐
+## Enjoy ad free browsing!!!
 
 ## Usage:
 - To see help file:
