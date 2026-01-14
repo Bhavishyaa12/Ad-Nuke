@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ad-Nuke 🚀
+# Ad-Nuke 🚀🚀
 
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made_with%20-Love❤️-cyan.svg)]()
