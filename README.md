@@ -5,9 +5,7 @@
 [![Root Required](https://img.shields.io/badge/Root-Required-ff4444.svg)]()
 [![Made with love❤️](https://img.shields.io/badge/Made-with%20Love❤️-brightgreen.svg)]()
 [![Contact](https://img.shields.io/badge/Contact_developer-Telegram-blue)]()
-</div>
 
-<div align="center">
   
 [![Fast and quick](https://img.shields.io/badge/Easy_and-Fast-blue)]()
 [![Github repo](https://img.shields.io/badge/github-repo-blue?logo=github)]()
@@ -22,7 +20,8 @@
 - Magisk systemless hosts module required
 
 ⚠️ **Note:**
-Please install magisk systemless hosts module in magisk settings to make this script work.Go to Magisk Settings --> Click on Systemless hosts (REBOOT).
+Please install magisk systemless hosts module in magisk settings to make this script work.
+Go to Magisk Settings --> Click on Systemless hosts (REBOOT).
    
 ## Features:
 - Systemlessly install ad blocking hosts files in `/etc/hosts` with one click 🚀🚀
