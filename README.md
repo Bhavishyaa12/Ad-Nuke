@@ -53,6 +53,10 @@ sh adnuke.sh -b
 ```sh
 sh adnuke.sh -p
 ```
+- To block both ads and porn sites:
+```sh
+sh adnuke.sh -bp
+```
 - To restore default hosts file: 
 ```sh
 sh adnuke.sh -r
