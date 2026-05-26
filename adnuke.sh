@@ -31,8 +31,7 @@ download() {
 
 require_root() {
     #Check if root available or not 
-    su -c "[ -f '$HOSTS' ]" || \ 
-    die 'Enable Magisk Systemless Hosts first (Magisk app --> Settings)'
+    su -c "[ -f '$HOSTS' ]" || die 'Enable Magisk Systemless Hosts first (Magisk app --> Settings)'
 }
 
 #Check if dir available
