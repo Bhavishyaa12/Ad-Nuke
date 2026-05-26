@@ -19,6 +19,7 @@ ADS_URL="https://raw.githubusercontent.com/Bhavishyaa12/Ad-Nuke/main/hosts"
 PORN_URL="https://raw.githubusercontent.com/Bhavishyaa12/Ad-Nuke/main/porn_hosts"
 
 die() {
+    printf '%s\n' "$1" >&2
     exit 1
 }
 
@@ -30,7 +31,8 @@ download() {
 
 require_root() {
     #Check if root available or not 
-    su -c "[ -f '$HOSTS' ] || die 'Enable Magisk Systemless Hosts first (Magisk app --> Settings)'"
+    su -c "[ -f '$HOSTS' ]" || \ 
+    die 'Enable Magisk Systemless Hosts first (Magisk app --> Settings)'
 }
 
 #Check if dir available
@@ -65,11 +67,11 @@ else
     "$(printf '%s' "$USER" | cut -c1 | tr '[:lower:]' '[:upper:]')" \
     "$(printf '%s' "$USER" | cut -c2-)" 
 
-    sleep .5
+    sleep 1
 
     echo "Initalizing the script to block ads....." ; tput sgr0
 
-    sleep .5 
+    sleep 1 
 fi
 
 #Backup first
@@ -90,7 +92,7 @@ if [ "$restore" = true ]; then
 fi
 
 #
-su -c "cp '$BACKUP' '$TMP'" || echo "Temp copy failed" ; die
+su -c "cp '$BACKUP' '$TMP'" || die "Temp copy failed"
 
 #Block only ads if the user selected -b in the script option
 if [ "$block_ads" = true ]; then
