@@ -18,17 +18,6 @@ restore=false
 ADS_URL="https://raw.githubusercontent.com/Bhavishyaa12/Ad-Nuke/main/hosts"
 PORN_URL="https://raw.githubusercontent.com/Bhavishyaa12/Ad-Nuke/main/porn_hosts"
 
-#Say hello to the user just for an interactive script
-tput setaf 4 ; printf "Hii " ; printf '%s%s\n' \
-    "$(printf '%s' "$USER" | cut -c1 | tr '[:lower:]' '[:upper:]')" \
-    "$(printf '%s' "$USER" | cut -c2-)" 
-
-sleep .5
-
-echo "Initalizing the script to block ads....." ; tput sgr0
-
-sleep .5 
-
 die() {
     exit 1
 }
@@ -70,6 +59,17 @@ if [ "$block_ads" = false ] && [ "$block_porn" = false ] && [ "$restore" = false
     echo "Use -h for help"
     tput sgr0
     exit 0
+else
+    #Say hello to the user just for an interactive script
+    tput setaf 4 ; printf "Hii " ; printf '%s%s\n' \
+    "$(printf '%s' "$USER" | cut -c1 | tr '[:lower:]' '[:upper:]')" \
+    "$(printf '%s' "$USER" | cut -c2-)" 
+
+    sleep .5
+
+    echo "Initalizing the script to block ads....." ; tput sgr0
+
+    sleep .5 
 fi
 
 #Backup first
