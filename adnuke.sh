@@ -83,7 +83,7 @@ fi
 #Restore hosts file if the user specified -r flag
 if [ "$restore" = true ]; then
     #Check if backup file is there or not exit with error code 1
-    [ -f "$BACKUP" ] || echo "Backup not found" ; die
+    [ -f "$BACKUP" ] || die "Backup not found" 
     su -c "cp '$BACKUP' '$HOSTS'"
     echo "Hosts file restored"
     exit 0
@@ -110,9 +110,9 @@ if [ "$block_porn" = true ]; then
 fi
 
 #Copy the temporary hosts file into the systemless magisk host file and if it fails exit with error(code 1)
-su -c "cp '$TMP' '$HOSTS'" || echo "Failed to copy hosts file" ; die
+su -c "cp '$TMP' '$HOSTS'" || die "Failed to copy hosts file" 
 #Remove the temporary hosts file created
-rm -rf "$TMP"
+rm -f "$TMP"
 
 #Give a confirmation to the user
 echo "Hosts files updated successfully"
