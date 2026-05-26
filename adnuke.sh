@@ -1,5 +1,8 @@
 #!/system/bin/sh
 # This script is written in POSIX shell 
+# Author: Bhavishya
+# Date created: 12/12/2025
+# Date modified: 26/05/2026
 # Description: Systemless ad & porn blocking via hosts file
 
 HOSTS="/data/adb/modules/hosts/system/etc/hosts"
@@ -15,6 +18,16 @@ restore=false
 ADS_URL="https://raw.githubusercontent.com/Bhavishyaa12/Ad-Nuke/main/hosts"
 PORN_URL="https://raw.githubusercontent.com/Bhavishyaa12/Ad-Nuke/main/porn_hosts"
 
+#Say hello to the user just for an interactive script
+tput setaf 4 ; printf "Hii " ; printf '%s%s\n' \
+    "$(printf '%s' "$USER" | cut -c1 | tr '[:lower:]' '[:upper:]')" \
+    "$(printf '%s' "$USER" | cut -c2-)" 
+
+sleep .5
+
+echo "Initalizing the script to block ads....." ; tput sgr0
+
+sleep .5 
 
 die() {
     exit 1
@@ -27,6 +40,7 @@ download() {
 }
 
 require_root() {
+    #Check if root available or not 
     su -c "[ -f '$HOSTS' ] || die 'Enable Magisk Systemless Hosts first (Magisk app --> Settings)'"
 }
 
@@ -51,8 +65,10 @@ while getopts "bprh" opt; do
 done
 
 if [ "$block_ads" = false ] && [ "$block_porn" = false ] && [ "$restore" = false ]; then
-    echo "Error no flag specified"
+    #if nothing is specified echo error in red text
+    tput setaf 1 ; echo "Error no flag specified"
     echo "Use -h for help"
+    tput sgr0
     exit 0
 fi
 
@@ -64,33 +80,41 @@ if [ ! -f "$BACKUP" ]; then
 fi
 
 
-#Restore hosts file
-
+#Restore hosts file if the user specified -r flag
 if [ "$restore" = true ]; then
-    [ -f "$BACKUP" ] || die "Backup not found"
+    #Check if backup file is there or not exit with error code 1
+    [ -f "$BACKUP" ] || echo "Backup not found" ; die
     su -c "cp '$BACKUP' '$HOSTS'"
     echo "Hosts file restored"
     exit 0
 fi
 
+#
+su -c "cp '$BACKUP' '$TMP'" || echo "Temp copy failed" ; die
 
-su -c "cp '$BACKUP' '$TMP'" || die "Temp copy failed"
-
+#Block only ads if the user selected -b in the script option
 if [ "$block_ads" = true ]; then
     echo "Blocking ads..."
     download "$DIR/hosts" "$ADS_URL"
-    cat "$DIR/hosts" >> "$TMP" 2>&1 #Supress the error
+    cat "$DIR/hosts" >> "$TMP" 2>&1 
 fi
 
+#Block porn websites if the user has selected -p option
 if [ "$block_porn" = true ]; then
     echo "Blocking porn websites..."
+    #Download hosts list of porn webstie
     download "$DIR/porn_hosts" "$PORN_URL"
-    cat "$DIR/porn_hosts" >> "$TMP"
+    #Append in the temparory file hosts which is created in /sdcard/Download/
+    cat "$DIR/porn_hosts" >> "$TMP" 2>&1
+    sleep .5
 fi
 
-su -c "cp '$TMP' '$HOSTS'" || die "Failed to apply hosts"
-rm -f "$TMP"
+#Copy the temporary hosts file into the systemless magisk host file and if it fails exit with error(code 1)
+su -c "cp '$TMP' '$HOSTS'" || echo "Failed to copy hosts file" ; die
+#Remove the temporary hosts file created
+rm -rf "$TMP"
 
+#Give a confirmation to the user
 echo "Hosts files updated successfully"
 echo "No reboot required"
 echo "Enjoy!!!"
