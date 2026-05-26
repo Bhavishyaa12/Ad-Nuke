@@ -68,7 +68,7 @@ else
 
     sleep 1
 
-    echo "Initalizing the script to block ads....." ; tput sgr0
+    echo "Initializing the script to block ads....." ; tput sgr0
 
     sleep 1 
 fi
